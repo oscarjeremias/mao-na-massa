@@ -55,9 +55,9 @@ export default function Post(props: IpageType) {
           { props.content }
         </ReactMarkdown>
       </div>
-        <ListArtigos lenghtData={4} />
         { isLogado === true ? "" : <ButtonLogin />}
       <div className="self-start">
+        <ListArtigos page={props.page} lenghtData={4} />
       <InputComent idPage={`${props.id}`}/> 
         <ListComents idPage={`${props.id}`}/>
       </div>

@@ -46,7 +46,7 @@ export function ListArtigos(props:any) {
 					if(i >= props.lenghtData) {
 						return ""
 					}else {
-						return router.route === `/post/${v.page}` ? "" : <li key={i} className="my-8 py-1 mr-4 border border-blue-400 border-b border-t-0 border-r-0 border-l-0">
+						return props.page === v.page ? "" : <li key={i} className="my-8 py-1 mr-4 border border-blue-400 border-b border-t-0 border-r-0 border-l-0">
 							<Link href={`post/${v.page}`}>
 							<a>
 								<div className="w-52">
