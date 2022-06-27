@@ -43,7 +43,7 @@ overflow-x: scroll;
 	color: #006DFF;
 }
 
-.section ul,ol {
+.section .a ul,ol {
 	margin-left: 40px;
 	list-style-type: square;
 }
