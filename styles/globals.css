@@ -30,8 +30,9 @@ body {
 }
 .section code {
 background-color: #7F7F7F;
-padding: 5px;
+padding: 7px;
 margin: 5px 0;
+overflow-x: scroll;
 }
 
 .section img {
@@ -40,6 +41,12 @@ margin: 5px 0;
 
 .section .a  a {
 	color: #006DFF;
+}
+
+.section ul,ol {
+	margin-left: 20px;
+	list-style-type: upper-roman;
+	margin-top: 5px;
 }
 
 
