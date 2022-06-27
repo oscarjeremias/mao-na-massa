@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+	overflow-x: hidden;
+}
+.section {
+	padding: 10px;
+}
+.section h1 {
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 10px 0;
+}
+.section h2 {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 10px 0;
+}
+.section p {
+	margin: 20px 0;
+}
+
+.section em {
+	font-size: 1rem;
+	color: #D1D1D1
+}
+.section code {
+background-color: #7F7F7F;
+padding: 5px;
+margin: 5px 0;
+}
+
+.section img {
+	width: 100%;
+}
+
+.section .a  a {
+	color: #006DFF;
+}
+
+
+
