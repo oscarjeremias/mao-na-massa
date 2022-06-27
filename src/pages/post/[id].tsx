@@ -12,6 +12,7 @@ import { useContext,useState,useEffect } from "react";
 import { Seo } from "../../components/seo";
 import { InputComent } from "../../components/inputComent";
 import { ListComents } from "../../components/listComents";
+import { ListArtigos } from "../../components/listArtigos";
 
 
 type IpageType = {
@@ -54,6 +55,7 @@ export default function Post(props: IpageType) {
           { props.content }
         </ReactMarkdown>
       </div>
+        <ListArtigos lenghtData={4} />
         { isLogado === true ? "" : <ButtonLogin />}
       <div className="self-start">
       <InputComent idPage={`${props.id}`}/> 
