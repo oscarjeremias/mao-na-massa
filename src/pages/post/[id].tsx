@@ -57,7 +57,7 @@ export default function Post(props: IpageType) {
       </div>
         { isLogado === true ? "" : <ButtonLogin />}
       <div className="self-start">
-        <ListArtigos page={props.page} lenghtData={4} />
+        <ListArtigos isPagePost={true} page={props.page} lenghtData={4} />
       <InputComent idPage={`${props.id}`}/> 
         <ListComents idPage={`${props.id}`}/>
       </div>
