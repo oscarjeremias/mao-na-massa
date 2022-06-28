@@ -47,7 +47,7 @@ export function ListArtigos(props:any) {
 						return ""
 					}else {
 						return props.page === v.page ? "" : <li key={i} className="my-8 py-1 mr-4 border border-blue-400 border-b border-t-0 border-r-0 border-l-0">
-							<Link href={props.isPagePost === true ? `/${v.page}` : `/post/${v.page}`}>
+							<Link href={props.isPagePost === true ? `/post/${v.page}` : `/post/${v.page}`}>
 							<a>
 								<div className="w-52">
 								<ReactMarkdown remarkPlugins={[remarkGfm]}>{v.img}</ReactMarkdown>
