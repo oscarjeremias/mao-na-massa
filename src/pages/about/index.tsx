@@ -13,7 +13,7 @@ export default function About() {
   },[])
   return (
     <>
-      <Seo title="About" description="Tudo que voçê gostaria de saber sobre o desenvolvedor este Blog" url={url}/>
+      <Seo title="Oscar Jeremias jc" description="Tudo que voçê gostaria de saber sobre o desenvolvedor este Blog" url={url}/>
     <LayoutPageSecond>
       <Back />
       <section className="min-h-screen p-2.5 sm:w-3/4 sm:mx-auto">
