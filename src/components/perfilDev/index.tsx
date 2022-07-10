@@ -14,7 +14,7 @@ export function PerfilDev() {
 			<div>
 				<div>oscarjeremiasdev@gmail.com</div>
 				<div>946703116</div>
-				<Link href="https://www.linkedin.com/in/%C3%B3scar-jeremias-jc-356821235">
+				<Link href="https://www.linkedin.com/in/oscar-jeremias-jc-356821235/">
 					<a target="_blank" className="text-blue-400">Linkedin</a>
 				</Link>
 				<br />
