@@ -12,7 +12,7 @@ export function Footer() {
 					<img src={dev.src} alt="foto do dev.to" width="50px" />
 				</a>
 			</Link>
-			<Link href="https://www.linkedin.com/in/%C3%B3scar-jeremias-jc-356821235">
+			<Link href="https://www.linkedin.com/in/oscar-jeremias-jc-356821235/">
 				<a target="_blank">
 					<img src={linkedin.src} alt="foto do linkedin" width="50px"/>
 				</a>
